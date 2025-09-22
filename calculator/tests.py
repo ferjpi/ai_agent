@@ -11,6 +11,7 @@ class TestCalculator(unittest.TestCase):
     def test_addition(self):
         result = self.calculator.evaluate("3 + 5")
         self.assertEqual(result, 8)
+        print("Ran 9 tests")
 
     def test_subtraction(self):
         result = self.calculator.evaluate("10 - 4")
